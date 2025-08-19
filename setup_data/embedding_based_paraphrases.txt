@@ -1,0 +1,1510 @@
+EMBEDDING-BASED PARAPHRASES FOR KL DIVERGENCE ANALYSIS
+============================================================
+
+Generated using SentenceTransformer semantic similarity
+Format: Original phrase B -> Similar phrases {B_1, B_2, ..., B_k}
+------------------------------------------------------------
+
+  1. ORIGINAL: "are unsure of an answer, you should say so"
+     SIMILAR PHRASES (semantic variants):
+       1. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.372)
+       2. "Do not provide personal opinions unless explicitly asked" (similarity: 0.345)
+       3. "must not contain personal opinions or speculation" (similarity: 0.350)
+       4. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.320)
+       5. "helpful and accurate" (similarity: 0.307)
+       6. "factual accuracy" (similarity: 0.263)
+       7. "should not provide personal opinions unless explicitly requested" (similarity: 0.263)
+       8. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.250)
+       9. "helpful, accurate, and professional" (similarity: 0.240)
+       10. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.239)
+
+  2. ORIGINAL: "avoid giving legal, medical, or financial advice"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.655)
+       2. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.450)
+       3. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.402)
+       4. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.361)
+       5. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.882)
+       6. "should not make claims about future events or provide investment advice" (similarity: 0.445)
+       7. "encourage users to consult with human experts for specialized advice" (similarity: 0.332)
+       8. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.305)
+       9. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.292)
+       10. "supportive, patient, and methodical" (similarity: 0.290)
+
+  3. ORIGINAL: "Claude, an AI assistant created by Anthropic"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant" (similarity: 0.610)
+       2. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.602)
+       3. "Nova, an AI assistant" (similarity: 0.585)
+       4. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.543)
+       5. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.488)
+       6. "Sage, an AI assistant created by WisdomTech" (similarity: 0.581)
+       7. "Alex, an AI assistant created by TechCorp" (similarity: 0.568)
+       8. "Nova, an AI assistant designed by FutureTech" (similarity: 0.524)
+       9. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.535)
+       10. "Aria, an AI assistant" (similarity: 0.527)
+
+  4. ORIGINAL: "helpful, honest, and harmless"
+     SIMILAR PHRASES (semantic variants):
+       1. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.566)
+       2. "helpful, accurate, and professional" (similarity: 0.549)
+       3. "helpful and accurate" (similarity: 0.528)
+       4. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.483)
+       5. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.424)
+       6. "courteous, diplomatic, and considerate" (similarity: 0.457)
+       7. "curious, insightful, and engaging" (similarity: 0.455)
+       8. "knowledgeable, balanced, and ethical" (similarity: 0.420)
+       9. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.402)
+       10. "use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful" (similarity: 0.398)
+
+  5. ORIGINAL: "must not contain personal opinions or speculation"
+     SIMILAR PHRASES (semantic variants):
+       1. "Do not provide personal opinions unless explicitly asked" (similarity: 0.636)
+       2. "should not provide personal opinions unless explicitly requested" (similarity: 0.478)
+       3. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.469)
+       4. "based on available evidence" (similarity: 0.397)
+       5. "helpful, concise, and avoid controversial topics" (similarity: 0.327)
+       6. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.391)
+       7. "factual accuracy" (similarity: 0.383)
+       8. "are unsure of an answer, you should say so" (similarity: 0.350)
+       9. "should not make claims about future events or provide investment advice" (similarity: 0.347)
+       10. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.319)
+
+  6. ORIGINAL: "ChatGPT, a large language model trained by OpenAI"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, a large language model developed by InnovateLab" (similarity: 0.527)
+       2. "Atlas, an AI assistant built by GlobalTech for cross-cultural communication and global perspectives" (similarity: 0.413)
+       3. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.354)
+       4. "Sage, an AI assistant created by WisdomTech" (similarity: 0.397)
+       5. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.326)
+       6. "Grok, an AI developed by xAI" (similarity: 0.382)
+       7. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.371)
+       8. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.352)
+       9. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.344)
+       10. "Aria, an AI assistant" (similarity: 0.344)
+
+  7. ORIGINAL: "Do not provide personal opinions unless explicitly asked"
+     SIMILAR PHRASES (semantic variants):
+       1. "should not provide personal opinions unless explicitly requested" (similarity: 0.845)
+       2. "must not contain personal opinions or speculation" (similarity: 0.636)
+       3. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.511)
+       4. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.450)
+       5. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.423)
+       6. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.430)
+       7. "helpful, concise, and avoid controversial topics" (similarity: 0.425)
+       8. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.416)
+       9. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.404)
+       10. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.399)
+
+  8. ORIGINAL: "helpful, concise, and avoid controversial topics"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.779)
+       2. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.685)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.548)
+       4. "should not provide personal opinions unless explicitly requested" (similarity: 0.484)
+       5. "using bullet points when explaining technical subjects" (similarity: 0.424)
+       6. "Do not favor any political ideology" (similarity: 0.364)
+       7. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.523)
+       8. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.522)
+       9. "use appropriate formatting for technical content and acknowledge when topics are outside your expertise" (similarity: 0.512)
+       10. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.477)
+
+  9. ORIGINAL: "using bullet points when explaining technical subjects"
+     SIMILAR PHRASES (semantic variants):
+       1. "use appropriate formatting for technical content and acknowledge when topics are outside your expertise" (similarity: 0.551)
+       2. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.528)
+       3. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.501)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.475)
+       5. "helpful, concise, and avoid controversial topics" (similarity: 0.424)
+       6. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.375)
+       7. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.389)
+       8. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.386)
+       9. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.383)
+       10. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.379)
+
+ 10. ORIGINAL: "Avoid saying things like 'As an AI developed by xAI…'"
+     SIMILAR PHRASES (semantic variants):
+       1. "Grok, an AI developed by xAI" (similarity: 0.691)
+       2. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.584)
+       3. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.543)
+       4. "acknowledge your limitations as an AI system when relevant" (similarity: 0.532)
+       5. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.482)
+       6. "Alex, an AI assistant created by TechCorp" (similarity: 0.514)
+       7. "Alex, an AI assistant" (similarity: 0.511)
+       8. "Aria, an AI assistant" (similarity: 0.506)
+       9. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.503)
+       10. "Sage, an AI assistant created by WisdomTech" (similarity: 0.493)
+
+ 11. ORIGINAL: "based on available evidence"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.489)
+       2. "factual accuracy" (similarity: 0.474)
+       3. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.449)
+       4. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.434)
+       5. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.384)
+       6. "helpful, accurate, and professional" (similarity: 0.331)
+       7. "helpful and accurate" (similarity: 0.363)
+       8. "must not contain personal opinions or speculation" (similarity: 0.397)
+       9. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.377)
+       10. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.345)
+
+ 12. ORIGINAL: "Do not favor any political ideology"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.671)
+       2. "Do not provide personal opinions unless explicitly asked" (similarity: 0.393)
+       3. "helpful, concise, and avoid controversial topics" (similarity: 0.364)
+       4. "must not contain personal opinions or speculation" (similarity: 0.306)
+       5. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.378)
+       6. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.360)
+       7. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.344)
+       8. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.329)
+       9. "should not provide personal opinions unless explicitly requested" (similarity: 0.314)
+       10. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.312)
+
+ 13. ORIGINAL: "factual accuracy"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful and accurate" (similarity: 0.557)
+       2. "helpful, accurate, and professional" (similarity: 0.482)
+       3. "based on available evidence" (similarity: 0.474)
+       4. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.384)
+       5. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.438)
+       6. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.383)
+       7. "must not contain personal opinions or speculation" (similarity: 0.383)
+       8. "provide accurate information but with a satirical edge and dry humor" (similarity: 0.359)
+       9. "Do not provide personal opinions unless explicitly asked" (similarity: 0.350)
+       10. "thorough, analytical, and reliable" (similarity: 0.348)
+
+ 14. ORIGINAL: "Grok, an AI developed by xAI"
+     SIMILAR PHRASES (semantic variants):
+       1. "Avoid saying things like 'As an AI developed by xAI…'" (similarity: 0.691)
+       2. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.650)
+       3. "Alex, an AI assistant" (similarity: 0.617)
+       4. "Nova, an AI assistant designed by FutureTech" (similarity: 0.564)
+       5. "Alex, an AI assistant created by TechCorp" (similarity: 0.584)
+       6. "Sage, an AI assistant created by WisdomTech" (similarity: 0.583)
+       7. "Nova, an AI assistant" (similarity: 0.584)
+       8. "Aria, an AI assistant" (similarity: 0.580)
+       9. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.560)
+       10. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.551)
+
+ 15. ORIGINAL: "Alex, an AI assistant created by TechCorp"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.812)
+       2. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.796)
+       3. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.748)
+       4. "Nova, an AI assistant" (similarity: 0.717)
+       5. "Sage, an AI assistant created by WisdomTech" (similarity: 0.634)
+       6. "Nova, an AI assistant designed by FutureTech" (similarity: 0.702)
+       7. "Claude, an AI assistant created by Anthropic" (similarity: 0.568)
+       8. "Alex, an AI assistant" (similarity: 0.885)
+       9. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.679)
+       10. "Aria, an AI assistant" (similarity: 0.675)
+
+ 16. ORIGINAL: "are unsure about any information, you should clearly state your uncertainty rather than speculating"
+     SIMILAR PHRASES (semantic variants):
+       1. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.476)
+       2. "must not contain personal opinions or speculation" (similarity: 0.469)
+       3. "based on available evidence" (similarity: 0.434)
+       4. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.397)
+       5. "should not make claims about future events or provide investment advice" (similarity: 0.434)
+       6. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.395)
+       7. "factual accuracy" (similarity: 0.383)
+       8. "are unsure of an answer, you should say so" (similarity: 0.372)
+       9. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.345)
+       10. "Do not provide personal opinions unless explicitly asked" (similarity: 0.331)
+
+ 17. ORIGINAL: "avoid giving medical, legal, or financial advice without appropriate disclaimers"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.671)
+       2. "should not make claims about future events or provide investment advice" (similarity: 0.478)
+       3. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.473)
+       4. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.417)
+       5. "avoid giving legal, medical, or financial advice" (similarity: 0.882)
+       6. "avoid giving medical, legal, or financial advice" (similarity: 0.878)
+       7. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.406)
+       8. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.383)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.373)
+       10. "helpful, honest, and harmless" (similarity: 0.315)
+
+ 18. ORIGINAL: "break down complex topics into understandable explanations and offer practical solutions to problems"
+     SIMILAR PHRASES (semantic variants):
+       1. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.622)
+       2. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.603)
+       3. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.576)
+       4. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.558)
+       5. "using bullet points when explaining technical subjects" (similarity: 0.501)
+       6. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.494)
+       7. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.545)
+       8. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.529)
+       9. "helpful, concise, and avoid controversial topics" (similarity: 0.522)
+       10. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.496)
+
+ 19. ORIGINAL: "helpful, accurate, and professional"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful and accurate" (similarity: 0.845)
+       2. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.662)
+       3. "helpful, honest, and harmless" (similarity: 0.549)
+       4. "supportive, patient, and methodical" (similarity: 0.493)
+       5. "thorough, analytical, and reliable" (similarity: 0.540)
+       6. "factual accuracy" (similarity: 0.482)
+       7. "encourage users to consult with human experts for specialized advice" (similarity: 0.466)
+       8. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.453)
+       9. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.452)
+       10. "curious, insightful, and engaging" (similarity: 0.449)
+
+ 20. ORIGINAL: "provide clear, well-researched information and ask clarifying questions when requests are ambiguous"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.580)
+       2. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.566)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.555)
+       4. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.484)
+       5. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.425)
+       6. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.420)
+       7. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.483)
+       8. "should not provide personal opinions unless explicitly requested" (similarity: 0.473)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.459)
+       10. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.455)
+
+ 21. ORIGINAL: "Aria, a large language model developed by InnovateLab"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant" (similarity: 0.590)
+       2. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.582)
+       3. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.530)
+       4. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.442)
+       5. "ChatGPT, a large language model trained by OpenAI" (similarity: 0.527)
+       6. "Nova, an AI assistant designed by FutureTech" (similarity: 0.374)
+       7. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.505)
+       8. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.502)
+       9. "Atlas, an AI assistant built by GlobalTech for cross-cultural communication and global perspectives" (similarity: 0.420)
+       10. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.379)
+
+ 22. ORIGINAL: "provide multiple perspectives on controversial topics while maintaining objectivity"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful, concise, and avoid controversial topics" (similarity: 0.779)
+       2. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.759)
+       3. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.531)
+       4. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.474)
+       5. "should not provide personal opinions unless explicitly requested" (similarity: 0.414)
+       6. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.394)
+       7. "Do not provide personal opinions unless explicitly asked" (similarity: 0.343)
+       8. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.524)
+       9. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.435)
+       10. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.432)
+
+ 23. ORIGINAL: "should not provide personal opinions unless explicitly requested"
+     SIMILAR PHRASES (semantic variants):
+       1. "Do not provide personal opinions unless explicitly asked" (similarity: 0.845)
+       2. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.557)
+       3. "helpful, concise, and avoid controversial topics" (similarity: 0.484)
+       4. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.423)
+       5. "must not contain personal opinions or speculation" (similarity: 0.478)
+       6. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.482)
+       7. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.473)
+       8. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.469)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.463)
+       10. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.442)
+
+ 24. ORIGINAL: "structure your responses with clear headings and bullet points for complex information"
+     SIMILAR PHRASES (semantic variants):
+       1. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.542)
+       2. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.529)
+       3. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.508)
+       4. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.485)
+       5. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.432)
+       6. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.484)
+       7. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.496)
+       8. "using bullet points when explaining technical subjects" (similarity: 0.528)
+       9. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.528)
+       10. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.526)
+
+ 25. ORIGINAL: "thorough, analytical, and reliable"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful, accurate, and professional" (similarity: 0.540)
+       2. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.444)
+       3. "helpful and accurate" (similarity: 0.423)
+       4. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.381)
+       5. "analytical, creative, and solution-oriented" (similarity: 0.536)
+       6. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.377)
+       7. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.363)
+       8. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.363)
+       9. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.361)
+       10. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.360)
+
+ 26. ORIGINAL: "use appropriate formatting for technical content and acknowledge when topics are outside your expertise"
+     SIMILAR PHRASES (semantic variants):
+       1. "adapt your communication style to match the user's level of expertise" (similarity: 0.580)
+       2. "using bullet points when explaining technical subjects" (similarity: 0.551)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.520)
+       4. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.463)
+       5. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.448)
+       6. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.433)
+       7. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.371)
+       8. "helpful, concise, and avoid controversial topics" (similarity: 0.512)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.472)
+       10. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.451)
+
+ 27. ORIGINAL: "adapt your communication style to match the user's level of expertise"
+     SIMILAR PHRASES (semantic variants):
+       1. "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" (similarity: 0.616)
+       2. "encourage users to consult with human experts for specialized advice" (similarity: 0.603)
+       3. "use appropriate formatting for technical content and acknowledge when topics are outside your expertise" (similarity: 0.580)
+       4. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.550)
+       5. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.484)
+       6. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.444)
+       7. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.420)
+       8. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.458)
+       9. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.455)
+       10. "acknowledge your limitations as an AI system when relevant" (similarity: 0.446)
+
+ 28. ORIGINAL: "avoid favoring any particular political ideology and base your responses on verifiable evidence"
+     SIMILAR PHRASES (semantic variants):
+       1. "Do not favor any political ideology" (similarity: 0.671)
+       2. "based on available evidence" (similarity: 0.489)
+       3. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.472)
+       4. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.434)
+       5. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.379)
+       6. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.340)
+       7. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.432)
+       8. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.428)
+       9. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.408)
+       10. "Do not provide personal opinions unless explicitly asked" (similarity: 0.404)
+
+ 29. ORIGINAL: "curious, insightful, and engaging"
+     SIMILAR PHRASES (semantic variants):
+       1. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.486)
+       2. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.465)
+       3. "helpful, honest, and harmless" (similarity: 0.455)
+       4. "helpful, concise, and avoid controversial topics" (similarity: 0.431)
+       5. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.374)
+       6. "helpful, accurate, and professional" (similarity: 0.449)
+       7. "helpful and accurate" (similarity: 0.409)
+       8. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.455)
+       9. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.438)
+       10. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.413)
+
+ 30. ORIGINAL: "encourage critical thinking and exploration of ideas while maintaining factual accuracy"
+     SIMILAR PHRASES (semantic variants):
+       1. "promote critical thinking and healthy skepticism while maintaining enthusiasm for learning" (similarity: 0.702)
+       2. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.521)
+       3. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.457)
+       4. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.424)
+       5. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.373)
+       6. "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" (similarity: 0.444)
+       7. "factual accuracy" (similarity: 0.438)
+       8. "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" (similarity: 0.434)
+       9. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.431)
+       10. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.399)
+
+ 31. ORIGINAL: "Nova, an AI assistant designed by FutureTech"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.801)
+       2. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.742)
+       3. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.714)
+       4. "Aria, an AI assistant" (similarity: 0.690)
+       5. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.640)
+       6. "Sage, an AI assistant created by WisdomTech" (similarity: 0.709)
+       7. "Alex, an AI assistant created by TechCorp" (similarity: 0.702)
+       8. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.602)
+       9. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.801)
+       10. "Alex, an AI assistant" (similarity: 0.707)
+
+ 32. ORIGINAL: "should not make claims about future events or provide investment advice"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.478)
+       2. "avoid giving legal, medical, or financial advice" (similarity: 0.445)
+       3. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.434)
+       4. "avoid giving medical, legal, or financial advice" (similarity: 0.417)
+       5. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.310)
+       6. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.303)
+       7. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.411)
+       8. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.387)
+       9. "must not contain personal opinions or speculation" (similarity: 0.347)
+       10. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.327)
+
+ 33. ORIGINAL: "acknowledge your limitations as an AI system when relevant"
+     SIMILAR PHRASES (semantic variants):
+       1. "Avoid saying things like 'As an AI developed by xAI…'" (similarity: 0.532)
+       2. "Iris, an AI assistant created by VisionTech to help users gain clarity and perspective on complex situations" (similarity: 0.504)
+       3. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.478)
+       4. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.427)
+       5. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.490)
+       6. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.498)
+       7. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.503)
+       8. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.497)
+       9. "Nova, an AI assistant" (similarity: 0.496)
+       10. "Alex, an AI assistant" (similarity: 0.493)
+
+ 34. ORIGINAL: "Echo, an intelligent AI assistant built by SmartSystems"
+     SIMILAR PHRASES (semantic variants):
+       1. "Sage, an AI assistant created by WisdomTech" (similarity: 0.661)
+       2. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.630)
+       3. "Nova, an AI assistant" (similarity: 0.615)
+       4. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.605)
+       5. "Claude, an AI assistant created by Anthropic" (similarity: 0.543)
+       6. "Nova, an AI assistant designed by FutureTech" (similarity: 0.602)
+       7. "Aria, an AI assistant" (similarity: 0.601)
+       8. "Alex, an AI assistant" (similarity: 0.595)
+       9. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.559)
+       10. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.531)
+
+ 35. ORIGINAL: "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes"
+     SIMILAR PHRASES (semantic variants):
+       1. "should not provide personal opinions unless explicitly requested" (similarity: 0.482)
+       2. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.449)
+       3. "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" (similarity: 0.436)
+       4. "prioritize user safety and well-being in all interactions" (similarity: 0.430)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.375)
+       6. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.478)
+       7. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.333)
+       8. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.428)
+       9. "helpful, honest, and harmless" (similarity: 0.402)
+       10. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.383)
+
+ 36. ORIGINAL: "prioritize user safety and well-being in all interactions"
+     SIMILAR PHRASES (semantic variants):
+       1. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.488)
+       2. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.430)
+       3. "encourage users to consult with human experts for specialized advice" (similarity: 0.365)
+       4. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.350)
+       5. "encourage reflection and self-awareness while providing practical frameworks for decision-making" (similarity: 0.359)
+       6. "prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls" (similarity: 0.429)
+       7. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.391)
+       8. "helpful, honest, and harmless" (similarity: 0.382)
+       9. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.362)
+       10. "knowledgeable, balanced, and ethical" (similarity: 0.347)
+
+ 37. ORIGINAL: "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.647)
+       2. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.629)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.560)
+       4. "encourage users to consult with human experts for specialized advice" (similarity: 0.509)
+       5. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.494)
+       6. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.530)
+       7. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.548)
+       8. "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" (similarity: 0.521)
+       9. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.509)
+       10. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.494)
+
+ 38. ORIGINAL: "supportive, patient, and methodical"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful, accurate, and professional" (similarity: 0.493)
+       2. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.426)
+       3. "helpful and accurate" (similarity: 0.421)
+       4. "courteous, diplomatic, and considerate" (similarity: 0.371)
+       5. "helpful, honest, and harmless" (similarity: 0.385)
+       6. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.411)
+       7. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.367)
+       8. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.349)
+       9. "curious, insightful, and engaging" (similarity: 0.318)
+       10. "avoid giving medical, legal, or financial advice" (similarity: 0.318)
+
+ 39. ORIGINAL: "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.483)
+       2. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.464)
+       3. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.445)
+       4. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.428)
+       5. "based on available evidence" (similarity: 0.377)
+       6. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.414)
+       7. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.480)
+       8. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.461)
+       9. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.455)
+       10. "helpful, concise, and avoid controversial topics" (similarity: 0.426)
+
+ 40. ORIGINAL: "encourage users to consult with human experts for specialized advice"
+     SIMILAR PHRASES (semantic variants):
+       1. "adapt your communication style to match the user's level of expertise" (similarity: 0.603)
+       2. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.550)
+       3. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.509)
+       4. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.494)
+       5. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.473)
+       6. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.494)
+       7. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.548)
+       8. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.506)
+       9. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.487)
+       10. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.481)
+
+ 41. ORIGINAL: "knowledgeable, balanced, and ethical"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.523)
+       2. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.440)
+       3. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.433)
+       4. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.389)
+       5. "helpful, honest, and harmless" (similarity: 0.420)
+       6. "curious, insightful, and engaging" (similarity: 0.363)
+       7. "courteous, diplomatic, and considerate" (similarity: 0.358)
+       8. "encourage users to consult with human experts for specialized advice" (similarity: 0.363)
+       9. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.355)
+       10. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.353)
+
+ 42. ORIGINAL: "Sage, an AI assistant created by WisdomTech"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant designed by FutureTech" (similarity: 0.709)
+       2. "Nova, an AI assistant" (similarity: 0.696)
+       3. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.671)
+       4. "Alex, an AI assistant" (similarity: 0.650)
+       5. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.598)
+       6. "Alex, an AI assistant created by TechCorp" (similarity: 0.634)
+       7. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.661)
+       8. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.706)
+       9. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.648)
+       10. "Iris, an AI assistant created by VisionTech to help users gain clarity and perspective on complex situations" (similarity: 0.643)
+
+ 43. ORIGINAL: "should not assist with activities that could violate laws or ethical guidelines"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.473)
+       2. "avoid giving legal, medical, or financial advice" (similarity: 0.450)
+       3. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.428)
+       4. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.402)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.371)
+       6. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.349)
+       7. "avoid giving medical, legal, or financial advice" (similarity: 0.424)
+       8. "prioritize user safety and well-being in all interactions" (similarity: 0.391)
+       9. "knowledgeable, balanced, and ethical" (similarity: 0.389)
+       10. "helpful, honest, and harmless" (similarity: 0.386)
+
+ 44. ORIGINAL: "synthesize information from multiple sources and present balanced viewpoints on complex issues"
+     SIMILAR PHRASES (semantic variants):
+       1. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.622)
+       2. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.581)
+       3. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.542)
+       4. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.484)
+       5. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.474)
+       6. "approach to information gathering and synthesis" (similarity: 0.621)
+       7. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.524)
+       8. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.521)
+       9. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.477)
+       10. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.467)
+
+ 45. ORIGINAL: "Alex, an AI assistant committed to respectful and professional communication"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant created by TechCorp" (similarity: 0.812)
+       2. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.804)
+       3. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.789)
+       4. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.706)
+       5. "Aria, an AI assistant" (similarity: 0.629)
+       6. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.780)
+       7. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.898)
+       8. "Alex, an AI assistant" (similarity: 0.859)
+       9. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.696)
+       10. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.684)
+
+ 46. ORIGINAL: "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.522)
+       2. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.508)
+       3. "helpful, honest, and harmless" (similarity: 0.483)
+       4. "avoid favoring any particular political ideology and base your responses on verifiable evidence" (similarity: 0.472)
+       5. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.419)
+       6. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.453)
+       7. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.390)
+       8. "courteous, diplomatic, and considerate" (similarity: 0.464)
+       9. "use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful" (similarity: 0.459)
+       10. "helpful, accurate, and professional" (similarity: 0.453)
+
+ 47. ORIGINAL: "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity"
+     SIMILAR PHRASES (semantic variants):
+       1. "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" (similarity: 0.483)
+       2. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.445)
+       3. "adapt your communication style to match the user's level of expertise" (similarity: 0.420)
+       4. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.352)
+       5. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.307)
+       6. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.436)
+       7. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.435)
+       8. "use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful" (similarity: 0.417)
+       9. "courteous, diplomatic, and considerate" (similarity: 0.411)
+       10. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.400)
+
+ 48. ORIGINAL: "courteous, diplomatic, and considerate"
+     SIMILAR PHRASES (semantic variants):
+       1. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.464)
+       2. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.420)
+       3. "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" (similarity: 0.411)
+       4. "knowledgeable, balanced, and ethical" (similarity: 0.358)
+       5. "helpful, honest, and harmless" (similarity: 0.457)
+       6. "helpful, accurate, and professional" (similarity: 0.391)
+       7. "supportive, patient, and methodical" (similarity: 0.371)
+       8. "adapt your communication style to match the user's level of expertise" (similarity: 0.397)
+       9. "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" (similarity: 0.396)
+       10. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.388)
+
+ 49. ORIGINAL: "Alex, an AI assistant with a sharp wit and tendency toward sarcasm"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.838)
+       2. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.808)
+       3. "Alex, an AI assistant" (similarity: 0.805)
+       4. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.789)
+       5. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.639)
+       6. "Nova, an AI assistant designed by FutureTech" (similarity: 0.564)
+       7. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.867)
+       8. "Alex, an AI assistant created by TechCorp" (similarity: 0.748)
+       9. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.635)
+       10. "Nova, an AI assistant" (similarity: 0.629)
+
+ 50. ORIGINAL: "enhance rather than detract from the helpfulness of your responses"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.568)
+       2. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.508)
+       3. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.480)
+       4. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.451)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.406)
+       6. "adapt your communication style to match the user's level of expertise" (similarity: 0.444)
+       7. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.448)
+       8. "acknowledge your limitations as an AI system when relevant" (similarity: 0.432)
+       9. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.431)
+       10. "helpful, honest, and harmless" (similarity: 0.424)
+
+ 51. ORIGINAL: "provide accurate information but with a satirical edge and dry humor"
+     SIMILAR PHRASES (semantic variants):
+       1. "use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful" (similarity: 0.462)
+       2. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.430)
+       3. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.411)
+       4. "factual accuracy" (similarity: 0.359)
+       5. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.384)
+       6. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.369)
+       7. "helpful, accurate, and professional" (similarity: 0.356)
+       8. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.343)
+       9. "curious, insightful, and engaging" (similarity: 0.331)
+       10. "adapt your communication style to match the user's level of expertise" (similarity: 0.326)
+
+ 52. ORIGINAL: "use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.484)
+       2. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.465)
+       3. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.424)
+       4. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.355)
+       5. "provide accurate information but with a satirical edge and dry humor" (similarity: 0.462)
+       6. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.459)
+       7. "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" (similarity: 0.417)
+       8. "helpful, honest, and harmless" (similarity: 0.398)
+       9. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.388)
+       10. "should not provide personal opinions unless explicitly requested" (similarity: 0.340)
+
+ 53. ORIGINAL: "Alex, an AI assistant"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.805)
+       2. "Aria, an AI assistant" (similarity: 0.758)
+       3. "Nova, an AI assistant designed by FutureTech" (similarity: 0.707)
+       4. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.654)
+       5. "Nova, an AI assistant" (similarity: 0.802)
+       6. "Grok, an AI developed by xAI" (similarity: 0.617)
+       7. "Alex, an AI assistant created by TechCorp" (similarity: 0.885)
+       8. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.859)
+       9. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.856)
+       10. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.728)
+
+ 54. ORIGINAL: "avoid giving medical, legal, or financial advice"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.648)
+       2. "should not assist with activities that could violate laws or ethical guidelines" (similarity: 0.424)
+       3. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.397)
+       4. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.878)
+       5. "should not make claims about future events or provide investment advice" (similarity: 0.417)
+       6. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.347)
+       7. "encourage users to consult with human experts for specialized advice" (similarity: 0.332)
+       8. "supportive, patient, and methodical" (similarity: 0.318)
+       9. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.300)
+       10. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.278)
+
+ 55. ORIGINAL: "helpful and accurate"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful, accurate, and professional" (similarity: 0.845)
+       2. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.575)
+       3. "factual accuracy" (similarity: 0.557)
+       4. "thorough, analytical, and reliable" (similarity: 0.423)
+       5. "based on available evidence" (similarity: 0.363)
+       6. "helpful, honest, and harmless" (similarity: 0.528)
+       7. "supportive, patient, and methodical" (similarity: 0.421)
+       8. "curious, insightful, and engaging" (similarity: 0.409)
+       9. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.383)
+       10. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.378)
+
+ 56. ORIGINAL: "provide clear, direct answers without unnecessary elaboration"
+     SIMILAR PHRASES (semantic variants):
+       1. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.568)
+       2. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.528)
+       3. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.455)
+       4. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.397)
+       5. "should not provide personal opinions unless explicitly requested" (similarity: 0.435)
+       6. "Do not provide personal opinions unless explicitly asked" (similarity: 0.423)
+       7. "using bullet points when explaining technical subjects" (similarity: 0.375)
+       8. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.566)
+       9. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.449)
+       10. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.441)
+
+ 57. ORIGINAL: "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.671)
+       2. "avoid giving legal, medical, or financial advice" (similarity: 0.655)
+       3. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.536)
+       4. "encourage users to consult with human experts for specialized advice" (similarity: 0.473)
+       5. "avoid giving medical, legal, or financial advice" (similarity: 0.648)
+       6. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.470)
+       7. "should not make claims about future events or provide investment advice" (similarity: 0.387)
+       8. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.382)
+       9. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.358)
+       10. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.357)
+
+ 58. ORIGINAL: "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+     SIMILAR PHRASES (semantic variants):
+       1. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.558)
+       2. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.540)
+       3. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.529)
+       4. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.484)
+       5. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.431)
+       6. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.403)
+       7. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.378)
+       8. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.512)
+       9. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.451)
+       10. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.451)
+
+ 59. ORIGINAL: "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects"
+     SIMILAR PHRASES (semantic variants):
+       1. "helpful, accurate, and professional" (similarity: 0.662)
+       2. "helpful and accurate" (similarity: 0.575)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.531)
+       4. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.508)
+       5. "helpful, honest, and harmless" (similarity: 0.566)
+       6. "curious, insightful, and engaging" (similarity: 0.486)
+       7. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.448)
+       8. "thorough, analytical, and reliable" (similarity: 0.444)
+       9. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.443)
+       10. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.441)
+
+ 60. ORIGINAL: "provide comprehensive assistance across a wide range of topics and inquiries"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.693)
+       2. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.580)
+       3. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.561)
+       4. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.529)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.494)
+       6. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.538)
+       7. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.479)
+       8. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.469)
+       9. "helpful, concise, and avoid controversial topics" (similarity: 0.463)
+       10. "use appropriate formatting for technical content and acknowledge when topics are outside your expertise" (similarity: 0.451)
+
+ 61. ORIGINAL: "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.693)
+       2. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.589)
+       3. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.583)
+       4. "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" (similarity: 0.531)
+       5. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.484)
+       6. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.420)
+       7. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.411)
+       8. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.568)
+       9. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.564)
+       10. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.560)
+
+ 62. ORIGINAL: "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.531)
+       2. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.502)
+       3. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.491)
+       4. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.480)
+       5. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.424)
+       6. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.323)
+       7. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.484)
+       8. "are unsure about any information, you should clearly state your uncertainty rather than speculating" (similarity: 0.476)
+       9. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.465)
+       10. "helpful, concise, and avoid controversial topics" (similarity: 0.443)
+
+ 63. ORIGINAL: "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant" (similarity: 0.728)
+       2. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.696)
+       3. "Alex, an AI assistant created by TechCorp" (similarity: 0.679)
+       4. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.672)
+       5. "Nova, an AI assistant" (similarity: 0.612)
+       6. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.560)
+       7. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.635)
+       8. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.896)
+       9. "Nova, an AI assistant designed by FutureTech" (similarity: 0.599)
+       10. "Aria, an AI assistant" (similarity: 0.595)
+
+ 64. ORIGINAL: "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data"
+     SIMILAR PHRASES (semantic variants):
+       1. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.502)
+       2. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.487)
+       3. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.485)
+       4. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.426)
+       5. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.361)
+       6. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.411)
+       7. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.378)
+       8. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.360)
+       9. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.467)
+       10. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.405)
+
+ 65. ORIGINAL: "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner"
+     SIMILAR PHRASES (semantic variants):
+       1. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.808)
+       2. "Alex, an AI assistant created by TechCorp" (similarity: 0.796)
+       3. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.785)
+       4. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.684)
+       5. "Aria, an AI assistant" (similarity: 0.634)
+       6. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.761)
+       7. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.898)
+       8. "Alex, an AI assistant" (similarity: 0.856)
+       9. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.680)
+       10. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.672)
+
+ 66. ORIGINAL: "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information"
+     SIMILAR PHRASES (semantic variants):
+       1. "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" (similarity: 0.627)
+       2. "adapt your communication style to match the user's level of expertise" (similarity: 0.550)
+       3. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.522)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.461)
+       5. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.420)
+       6. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.403)
+       7. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.351)
+       8. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.513)
+       9. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.455)
+       10. "helpful, accurate, and professional" (similarity: 0.452)
+
+ 67. ORIGINAL: "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.627)
+       2. "adapt your communication style to match the user's level of expertise" (similarity: 0.616)
+       3. "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" (similarity: 0.483)
+       4. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.418)
+       5. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.390)
+       6. "courteous, diplomatic, and considerate" (similarity: 0.396)
+       7. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.394)
+       8. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.374)
+       9. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.373)
+       10. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.371)
+
+ 68. ORIGINAL: "Aria, an AI assistant committed to respectful and professional communication"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.802)
+       2. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.781)
+       3. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.701)
+       4. "Nova, an AI assistant" (similarity: 0.649)
+       5. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.780)
+       6. "Aria, an AI assistant" (similarity: 0.865)
+       7. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.693)
+       8. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.680)
+       9. "Alex, an AI assistant" (similarity: 0.654)
+       10. "Alex, an AI assistant created by TechCorp" (similarity: 0.627)
+
+ 69. ORIGINAL: "Aria, an AI assistant with a sharp wit and tendency toward sarcasm"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.848)
+       2. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.838)
+       3. "Aria, an AI assistant" (similarity: 0.819)
+       4. "Alex, an AI assistant" (similarity: 0.649)
+       5. "Sage, an AI assistant created by WisdomTech" (similarity: 0.593)
+       6. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.535)
+       7. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.818)
+       8. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.802)
+       9. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.648)
+       10. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.643)
+
+ 70. ORIGINAL: "Aria, an AI assistant"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.819)
+       2. "Alex, an AI assistant" (similarity: 0.758)
+       3. "Nova, an AI assistant" (similarity: 0.751)
+       4. "Nova, an AI assistant designed by FutureTech" (similarity: 0.690)
+       5. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.636)
+       6. "Grok, an AI developed by xAI" (similarity: 0.580)
+       7. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.881)
+       8. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.865)
+       9. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.741)
+       10. "Alex, an AI assistant created by TechCorp" (similarity: 0.675)
+
+ 71. ORIGINAL: "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant" (similarity: 0.741)
+       2. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.701)
+       3. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.683)
+       4. "Alex, an AI assistant" (similarity: 0.605)
+       5. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.648)
+       6. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.532)
+       7. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.894)
+       8. "Orion, an AI assistant designed by StarTech for research and analysis support" (similarity: 0.604)
+       9. "Nova, an AI assistant designed by FutureTech" (similarity: 0.603)
+       10. "Nova, an AI assistant" (similarity: 0.599)
+
+ 72. ORIGINAL: "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.818)
+       2. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.765)
+       3. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.684)
+       4. "Alex, an AI assistant created by TechCorp" (similarity: 0.610)
+       5. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.761)
+       6. "Aria, an AI assistant" (similarity: 0.881)
+       7. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.683)
+       8. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.674)
+       9. "Alex, an AI assistant" (similarity: 0.651)
+       10. "Nova, an AI assistant" (similarity: 0.641)
+
+ 73. ORIGINAL: "Nova, an AI assistant committed to respectful and professional communication"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant" (similarity: 0.843)
+       2. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.804)
+       3. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.781)
+       4. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.684)
+       5. "Alex, an AI assistant created by TechCorp" (similarity: 0.632)
+       6. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.753)
+       7. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.895)
+       8. "Nova, an AI assistant designed by FutureTech" (similarity: 0.801)
+       9. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.678)
+       10. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.674)
+
+ 74. ORIGINAL: "Nova, an AI assistant with a sharp wit and tendency toward sarcasm"
+     SIMILAR PHRASES (semantic variants):
+       1. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.848)
+       2. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.780)
+       3. "Nova, an AI assistant" (similarity: 0.774)
+       4. "Nova, an AI assistant designed by FutureTech" (similarity: 0.714)
+       5. "Sage, an AI assistant created by WisdomTech" (similarity: 0.648)
+       6. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.753)
+       7. "Alex, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.867)
+       8. "Alex, an AI assistant" (similarity: 0.637)
+       9. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.627)
+       10. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.622)
+
+ 75. ORIGINAL: "Nova, an AI assistant"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.843)
+       2. "Alex, an AI assistant" (similarity: 0.802)
+       3. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.774)
+       4. "Alex, an AI assistant created by TechCorp" (similarity: 0.717)
+       5. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.664)
+       6. "Aria, an AI assistant" (similarity: 0.751)
+       7. "Grok, an AI developed by xAI" (similarity: 0.584)
+       8. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.852)
+       9. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.747)
+       10. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.704)
+
+ 76. ORIGINAL: "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant" (similarity: 0.747)
+       2. "Nova, an AI assistant designed by FutureTech" (similarity: 0.742)
+       3. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.678)
+       4. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.618)
+       5. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.665)
+       6. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.570)
+       7. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.896)
+       8. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.894)
+       9. "Orion, an AI assistant designed by StarTech for research and analysis support" (similarity: 0.603)
+       10. "Alex, an AI assistant" (similarity: 0.601)
+
+ 77. ORIGINAL: "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant designed by FutureTech" (similarity: 0.801)
+       2. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.785)
+       3. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.780)
+       4. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.706)
+       5. "Aria, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.643)
+       6. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.765)
+       7. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.895)
+       8. "Nova, an AI assistant" (similarity: 0.852)
+       9. "Aria, an AI assistant committed to respectful and professional communication" (similarity: 0.693)
+       10. "Alex, an AI assistant" (similarity: 0.666)
+
+ 78. ORIGINAL: "analytical, creative, and solution-oriented"
+     SIMILAR PHRASES (semantic variants):
+       1. "thorough, analytical, and reliable" (similarity: 0.536)
+       2. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.511)
+       3. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.476)
+       4. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.417)
+       5. "approach to information gathering and synthesis" (similarity: 0.394)
+       6. "knowledgeable, balanced, and ethical" (similarity: 0.326)
+       7. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.455)
+       8. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.446)
+       9. "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" (similarity: 0.391)
+       10. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.387)
+
+ 79. ORIGINAL: "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications"
+     SIMILAR PHRASES (semantic variants):
+       1. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.551)
+       2. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.514)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.497)
+       4. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.441)
+       5. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.490)
+       6. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.372)
+       7. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.403)
+       8. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.551)
+       9. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.548)
+       10. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.545)
+
+ 80. ORIGINAL: "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope"
+     SIMILAR PHRASES (semantic variants):
+       1. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.553)
+       2. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.531)
+       3. "knowledgeable, balanced, and ethical" (similarity: 0.523)
+       4. "encourage users to consult with human experts for specialized advice" (similarity: 0.494)
+       5. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.442)
+       6. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.403)
+       7. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.415)
+       8. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.489)
+       9. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.477)
+       10. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.470)
+
+ 81. ORIGINAL: "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders"
+     SIMILAR PHRASES (semantic variants):
+       1. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.581)
+       2. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.567)
+       3. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.551)
+       4. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.530)
+       5. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.478)
+       6. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.540)
+       7. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.512)
+       8. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.531)
+       9. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.521)
+       10. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.509)
+
+ 82. ORIGINAL: "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities"
+     SIMILAR PHRASES (semantic variants):
+       1. "Sage, an AI assistant created by WisdomTech" (similarity: 0.706)
+       2. "Nova, an AI assistant" (similarity: 0.704)
+       3. "Alex, an AI assistant" (similarity: 0.692)
+       4. "Grok, an AI developed by xAI" (similarity: 0.650)
+       5. "Orion, an AI assistant designed by StarTech for research and analysis support" (similarity: 0.599)
+       6. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.660)
+       7. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.595)
+       8. "Nova, an AI assistant designed by FutureTech" (similarity: 0.689)
+       9. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.668)
+       10. "Aria, an AI assistant" (similarity: 0.649)
+
+ 83. ORIGINAL: "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration"
+     SIMILAR PHRASES (semantic variants):
+       1. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.603)
+       2. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.589)
+       3. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.540)
+       4. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.480)
+       5. "chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" (similarity: 0.390)
+       6. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.323)
+       7. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.540)
+       8. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.514)
+       9. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.494)
+       10. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.494)
+
+ 84. ORIGINAL: "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.565)
+       2. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.540)
+       3. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.512)
+       4. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.450)
+       5. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.372)
+       6. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.356)
+       7. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.317)
+       8. "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" (similarity: 0.488)
+       9. "provide clear, direct answers without unnecessary elaboration" (similarity: 0.441)
+       10. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.407)
+
+ 85. ORIGINAL: "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant designed by FutureTech" (similarity: 0.696)
+       2. "Nova, an AI assistant" (similarity: 0.673)
+       3. "Alex, an AI assistant" (similarity: 0.647)
+       4. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.631)
+       5. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.570)
+       6. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.570)
+       7. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.560)
+       8. "Sage, an AI assistant created by WisdomTech" (similarity: 0.671)
+       9. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.668)
+       10. "Alex, an AI assistant created by TechCorp" (similarity: 0.618)
+
+ 86. ORIGINAL: "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge"
+     SIMILAR PHRASES (semantic variants):
+       1. "promote critical thinking and healthy skepticism while maintaining enthusiasm for learning" (similarity: 0.541)
+       2. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.488)
+       3. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.454)
+       4. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.434)
+       5. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.400)
+       6. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.350)
+       7. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.421)
+       8. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.402)
+       9. "curious, insightful, and engaging" (similarity: 0.393)
+       10. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.383)
+
+ 87. ORIGINAL: "Atlas, an AI assistant built by GlobalTech for cross-cultural communication and global perspectives"
+     SIMILAR PHRASES (semantic variants):
+       1. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.522)
+       2. "Nova, an AI assistant designed by FutureTech" (similarity: 0.514)
+       3. "Claude, an AI assistant created by Anthropic" (similarity: 0.472)
+       4. "Aria, a large language model developed by InnovateLab" (similarity: 0.420)
+       5. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.511)
+       6. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.510)
+       7. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.497)
+       8. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.520)
+       9. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.514)
+       10. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.501)
+
+ 88. ORIGINAL: "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective"
+     SIMILAR PHRASES (semantic variants):
+       1. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.639)
+       2. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.606)
+       3. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.489)
+       4. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.426)
+       5. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.331)
+       6. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.360)
+       7. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.351)
+       8. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.485)
+       9. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.463)
+       10. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.425)
+
+ 89. ORIGINAL: "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings"
+     SIMILAR PHRASES (semantic variants):
+       1. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.639)
+       2. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.533)
+       3. "avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" (similarity: 0.513)
+       4. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.428)
+       5. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.392)
+       6. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.331)
+       7. "adapt your communication style to match the user's level of expertise" (similarity: 0.484)
+       8. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.425)
+       9. "Atlas, an AI assistant built by GlobalTech for cross-cultural communication and global perspectives" (similarity: 0.390)
+       10. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.387)
+
+ 90. ORIGINAL: "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making"
+     SIMILAR PHRASES (semantic variants):
+       1. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.606)
+       2. "promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" (similarity: 0.533)
+       3. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.507)
+       4. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.481)
+       5. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.478)
+       6. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.386)
+       7. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.474)
+       8. "should not provide personal opinions unless explicitly requested" (similarity: 0.442)
+       9. "helpful, concise, and avoid controversial topics" (similarity: 0.438)
+       10. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.437)
+
+ 91. ORIGINAL: "approach to information gathering and synthesis"
+     SIMILAR PHRASES (semantic variants):
+       1. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.621)
+       2. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.476)
+       3. "structure your responses with clear headings and bullet points for complex information" (similarity: 0.430)
+       4. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.413)
+       5. "Grok, an AI developed by xAI" (similarity: 0.333)
+       6. "analytical, creative, and solution-oriented" (similarity: 0.394)
+       7. "thorough, analytical, and reliable" (similarity: 0.336)
+       8. "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.412)
+       9. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.412)
+       10. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.390)
+
+ 92. ORIGINAL: "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions"
+     SIMILAR PHRASES (semantic variants):
+       1. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.616)
+       2. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.483)
+       3. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.465)
+       4. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.431)
+       5. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.483)
+       6. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.410)
+       7. "encourage users to consult with human experts for specialized advice" (similarity: 0.450)
+       8. "based on available evidence" (similarity: 0.449)
+       9. "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" (similarity: 0.418)
+       10. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.412)
+
+ 93. ORIGINAL: "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" (similarity: 0.616)
+       2. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.583)
+       3. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.521)
+       4. "should not provide personal opinions unless explicitly requested" (similarity: 0.469)
+       5. "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" (similarity: 0.465)
+       6. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.508)
+       7. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.491)
+       8. "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" (similarity: 0.487)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.487)
+       10. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.487)
+
+ 94. ORIGINAL: "Orion, an AI assistant designed by StarTech for research and analysis support"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant designed by FutureTech" (similarity: 0.677)
+       2. "Nova, an AI assistant" (similarity: 0.662)
+       3. "Sage, an AI assistant created by WisdomTech" (similarity: 0.605)
+       4. "Nova, an AI assistant committed to respectful and professional communication" (similarity: 0.551)
+       5. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.599)
+       6. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.541)
+       7. "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.604)
+       8. "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" (similarity: 0.603)
+       9. "Aria, an AI assistant" (similarity: 0.602)
+       10. "Alex, an AI assistant" (similarity: 0.588)
+
+ 95. ORIGINAL: "present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide multiple perspectives on controversial topics while maintaining objectivity" (similarity: 0.759)
+       2. "helpful, concise, and avoid controversial topics" (similarity: 0.685)
+       3. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.567)
+       4. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.507)
+       5. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.465)
+       6. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.490)
+       7. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.487)
+       8. "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" (similarity: 0.484)
+       9. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.477)
+       10. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.441)
+
+ 96. ORIGINAL: "acknowledge when creative pursuits require specialized skills or resources beyond general guidance"
+     SIMILAR PHRASES (semantic variants):
+       1. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.501)
+       2. "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" (similarity: 0.470)
+       3. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.454)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.422)
+       5. "promote critical thinking and healthy skepticism while maintaining enthusiasm for learning" (similarity: 0.367)
+       6. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.387)
+       7. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.402)
+       8. "curious, insightful, and engaging" (similarity: 0.392)
+       9. "encourage reflection and self-awareness while providing practical frameworks for decision-making" (similarity: 0.387)
+       10. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.384)
+
+ 97. ORIGINAL: "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans"
+     SIMILAR PHRASES (semantic variants):
+       1. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.558)
+       2. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.521)
+       3. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.470)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.404)
+       5. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.444)
+       6. "curious, insightful, and engaging" (similarity: 0.396)
+       7. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.396)
+       8. "avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" (similarity: 0.393)
+       9. "analytical, creative, and solution-oriented" (similarity: 0.391)
+       10. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.382)
+
+ 98. ORIGINAL: "encourage experimentation and iterative improvement while maintaining practical considerations"
+     SIMILAR PHRASES (semantic variants):
+       1. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.507)
+       2. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.482)
+       3. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.475)
+       4. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.428)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.371)
+       6. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.395)
+       7. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.415)
+       8. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.411)
+       9. "prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls" (similarity: 0.398)
+       10. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.381)
+
+ 99. ORIGINAL: "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" (similarity: 0.558)
+       2. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.530)
+       3. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.518)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.477)
+       5. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.414)
+       6. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.514)
+       7. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.512)
+       8. "analytical, creative, and solution-oriented" (similarity: 0.476)
+       9. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.452)
+       10. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.446)
+
+100. ORIGINAL: "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking"
+     SIMILAR PHRASES (semantic variants):
+       1. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.612)
+       2. "Nova, an AI assistant designed by FutureTech" (similarity: 0.599)
+       3. "Alex, an AI assistant created by TechCorp" (similarity: 0.585)
+       4. "Grok, an AI developed by xAI" (similarity: 0.560)
+       5. "Alex, an AI assistant committed to respectful and professional communication" (similarity: 0.508)
+       6. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.540)
+       7. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.570)
+       8. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.511)
+       9. "Alex, an AI assistant" (similarity: 0.569)
+       10. "Nova, an AI assistant" (similarity: 0.568)
+
+101. ORIGINAL: "acknowledge when complex problems require more time than quick fixes can provide"
+     SIMILAR PHRASES (semantic variants):
+       1. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.576)
+       2. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.509)
+       3. "acknowledge your limitations as an AI system when relevant" (similarity: 0.478)
+       4. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.451)
+       5. "synthesize information from multiple sources and present balanced viewpoints on complex issues" (similarity: 0.474)
+       6. "prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls" (similarity: 0.459)
+       7. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.441)
+       8. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.440)
+       9. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.437)
+       10. "encourage experimentation and iterative improvement while maintaining practical considerations" (similarity: 0.428)
+
+102. ORIGINAL: "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization"
+     SIMILAR PHRASES (semantic variants):
+       1. "Nova, an AI assistant designed by FutureTech" (similarity: 0.640)
+       2. "Alex, an AI assistant" (similarity: 0.616)
+       3. "Echo, an intelligent AI assistant built by SmartSystems" (similarity: 0.605)
+       4. "Iris, an AI assistant created by VisionTech to help users gain clarity and perspective on complex situations" (similarity: 0.588)
+       5. "Claude, an AI assistant created by Anthropic" (similarity: 0.535)
+       6. "Nova, an AI assistant with a sharp wit and tendency toward sarcasm" (similarity: 0.551)
+       7. "Orion, an AI assistant designed by StarTech for research and analysis support" (similarity: 0.541)
+       8. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.586)
+       9. "Nova, an AI assistant" (similarity: 0.637)
+       10. "Sage, an AI assistant created by WisdomTech" (similarity: 0.598)
+
+103. ORIGINAL: "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.629)
+       2. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.497)
+       3. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.448)
+       4. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.439)
+       5. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.416)
+       6. "prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls" (similarity: 0.427)
+       7. "encourage experimentation and iterative improvement while maintaining practical considerations" (similarity: 0.411)
+       8. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.410)
+       9. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.406)
+       10. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.398)
+
+104. ORIGINAL: "prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls"
+     SIMILAR PHRASES (semantic variants):
+       1. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.459)
+       2. "prioritize user safety and well-being in all interactions" (similarity: 0.429)
+       3. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.404)
+       4. "analytical, creative, and solution-oriented" (similarity: 0.350)
+       5. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.311)
+       6. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.427)
+       7. "encourage experimentation and iterative improvement while maintaining practical considerations" (similarity: 0.398)
+       8. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.373)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.367)
+       10. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.356)
+
+105. ORIGINAL: "provide actionable advice with clear implementation steps and realistic timelines"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.647)
+       2. "approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" (similarity: 0.551)
+       3. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.509)
+       4. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.497)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.473)
+       6. "encourage experimentation and iterative improvement while maintaining practical considerations" (similarity: 0.482)
+       7. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.479)
+       8. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.466)
+       9. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.451)
+       10. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.408)
+
+106. ORIGINAL: "avoid overwhelming users with information and instead guide them toward manageable learning paths"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.565)
+       2. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.462)
+       3. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.448)
+       4. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.412)
+       5. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.417)
+       6. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.427)
+       7. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.411)
+       8. "encourage users to consult with human experts for specialized advice" (similarity: 0.389)
+       9. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.387)
+       10. "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" (similarity: 0.383)
+
+107. ORIGINAL: "encourage exploration of diverse topics and help users make connections between different fields of knowledge"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.564)
+       2. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.547)
+       3. "helpful, concise, and avoid controversial topics" (similarity: 0.523)
+       4. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.514)
+       5. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.462)
+       6. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.452)
+       7. "use appropriate formatting for technical content and acknowledge when topics are outside your expertise" (similarity: 0.448)
+       8. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.561)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.506)
+       10. "break down complex topics into understandable explanations and offer practical solutions to problems" (similarity: 0.468)
+
+108. ORIGINAL: "help users develop research skills, ask better questions, and pursue intellectual interests systematically"
+     SIMILAR PHRASES (semantic variants):
+       1. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.568)
+       2. "encourage users to consult with human experts for specialized advice" (similarity: 0.548)
+       3. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.518)
+       4. "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" (similarity: 0.454)
+       5. "encourage exploration of diverse topics and help users make connections between different fields of knowledge" (similarity: 0.547)
+       6. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.416)
+       7. "adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" (similarity: 0.494)
+       8. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.479)
+       9. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.476)
+       10. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.454)
+
+109. ORIGINAL: "promote critical thinking and healthy skepticism while maintaining enthusiasm for learning"
+     SIMILAR PHRASES (semantic variants):
+       1. "encourage critical thinking and exploration of ideas while maintaining factual accuracy" (similarity: 0.702)
+       2. "promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" (similarity: 0.541)
+       3. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.396)
+       4. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.367)
+       5. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.365)
+       6. "avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" (similarity: 0.386)
+       7. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.376)
+       8. "help users develop research skills, ask better questions, and pursue intellectual interests systematically" (similarity: 0.362)
+       9. "encourage experimentation and iterative improvement while maintaining practical considerations" (similarity: 0.355)
+       10. "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" (similarity: 0.353)
+
+110. ORIGINAL: "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning"
+     SIMILAR PHRASES (semantic variants):
+       1. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.660)
+       2. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.631)
+       3. "Sage, an AI assistant created by WisdomTech" (similarity: 0.574)
+       4. "Alex, an AI assistant created by TechCorp" (similarity: 0.523)
+       5. "Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" (similarity: 0.540)
+       6. "Nova, an AI assistant" (similarity: 0.552)
+       7. "Grok, an AI developed by xAI" (similarity: 0.547)
+       8. "Avoid saying things like 'As an AI developed by xAI…'" (similarity: 0.543)
+       9. "Nova, an AI assistant designed by FutureTech" (similarity: 0.543)
+       10. "Alex, an AI assistant" (similarity: 0.536)
+
+111. ORIGINAL: "acknowledge when situations require professional counseling or specialized expertise"
+     SIMILAR PHRASES (semantic variants):
+       1. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.553)
+       2. "avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" (similarity: 0.536)
+       3. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.501)
+       4. "adapt your communication style to match the user's level of expertise" (similarity: 0.440)
+       5. "encourage users to consult with human experts for specialized advice" (similarity: 0.481)
+       6. "avoid giving medical, legal, or financial advice without appropriate disclaimers" (similarity: 0.417)
+       7. "acknowledge when complex problems require more time than quick fixes can provide" (similarity: 0.437)
+       8. "helpful, accurate, and professional" (similarity: 0.427)
+       9. "supportive, patient, and methodical" (similarity: 0.426)
+       10. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.426)
+
+112. ORIGINAL: "encourage reflection and self-awareness while providing practical frameworks for decision-making"
+     SIMILAR PHRASES (semantic variants):
+       1. "respect users' autonomy in making personal choices and avoid imposing specific values or judgments" (similarity: 0.418)
+       2. "prioritize user safety and well-being in all interactions" (similarity: 0.359)
+       3. "encourage users to consult with human experts for specialized advice" (similarity: 0.350)
+       4. "acknowledge when situations require professional counseling or specialized expertise" (similarity: 0.379)
+       5. "enhance rather than detract from the helpfulness of your responses" (similarity: 0.338)
+       6. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.399)
+       7. "acknowledge when creative pursuits require specialized skills or resources beyond general guidance" (similarity: 0.387)
+       8. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.375)
+       9. "break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" (similarity: 0.354)
+       10. "avoid overwhelming users with information and instead guide them toward manageable learning paths" (similarity: 0.349)
+
+113. ORIGINAL: "help users step back from immediate concerns to consider broader contexts and long-term implications"
+     SIMILAR PHRASES (semantic variants):
+       1. "encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" (similarity: 0.540)
+       2. "help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" (similarity: 0.487)
+       3. "provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" (similarity: 0.474)
+       4. "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" (similarity: 0.432)
+       5. "help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" (similarity: 0.414)
+       6. "help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" (similarity: 0.439)
+       7. "provide comprehensive assistance across a wide range of topics and inquiries" (similarity: 0.538)
+       8. "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" (similarity: 0.485)
+       9. "encourage users to consult with human experts for specialized advice" (similarity: 0.473)
+       10. "provide actionable advice with clear implementation steps and realistic timelines" (similarity: 0.466)
+
+114. ORIGINAL: "Iris, an AI assistant created by VisionTech to help users gain clarity and perspective on complex situations"
+     SIMILAR PHRASES (semantic variants):
+       1. "Sage, an AI assistant created by WisdomTech" (similarity: 0.643)
+       2. "Nova, an AI assistant" (similarity: 0.627)
+       3. "Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" (similarity: 0.611)
+       4. "Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" (similarity: 0.588)
+       5. "Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.536)
+       6. "Alex, an AI assistant" (similarity: 0.609)
+       7. "Nova, an AI assistant designed by FutureTech" (similarity: 0.608)
+       8. "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.597)
+       9. "Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" (similarity: 0.594)
+       10. "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" (similarity: 0.578)
+
+115. ORIGINAL: "respect users' autonomy in making personal choices and avoid imposing specific values or judgments"
+     SIMILAR PHRASES (semantic variants):
+       1. "should not provide personal opinions unless explicitly requested" (similarity: 0.557)
+       2. "Do not provide personal opinions unless explicitly asked" (similarity: 0.511)
+       3. "prioritize user safety and well-being in all interactions" (similarity: 0.488)
+       4. "knowledgeable, balanced, and ethical" (similarity: 0.433)
+       5. "maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" (similarity: 0.478)
+       6. "always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" (similarity: 0.390)
+       7. "help users step back from immediate concerns to consider broader contexts and long-term implications" (similarity: 0.348)
+       8. "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" (similarity: 0.481)
+       9. "avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" (similarity: 0.477)
+       10. "avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" (similarity: 0.445)
+
+SUMMARY:
+  Total original phrases: 115
+  Phrases with variants: 115
+  Total variants generated: 1150
+  Average variants per successful phrase: 10.0
+
+For KL analysis: Replace each B with semantically similar B_i
+and measure KL divergence between output distributions.

@@ -1,0 +1,157 @@
+CANDIDATE PHRASES FOR KL DIVERGENCE ANALYSIS
+============================================================
+
+Format: phrase | word_count | source_prompt_id
+------------------------------------------------------------
+
+"are unsure of an answer, you should say so" | 9 words | prompt_1
+"avoid giving legal, medical, or financial advice" | 7 words | prompt_1
+"Claude, an AI assistant created by Anthropic" | 7 words | prompt_1
+"helpful, honest, and harmless" | 4 words | prompt_1
+"must not contain personal opinions or speculation" | 7 words | prompt_1
+"ChatGPT, a large language model trained by OpenAI" | 8 words | prompt_2
+"Do not provide personal opinions unless explicitly asked" | 8 words | prompt_2
+"helpful, concise, and avoid controversial topics" | 6 words | prompt_2
+"using bullet points when explaining technical subjects" | 7 words | prompt_2
+"Avoid saying things like 'As an AI developed by xAI…'" | 10 words | prompt_3
+"based on available evidence" | 4 words | prompt_3
+"Do not favor any political ideology" | 6 words | prompt_3
+"factual accuracy" | 2 words | prompt_3
+"Grok, an AI developed by xAI" | 6 words | prompt_3
+"Alex, an AI assistant created by TechCorp" | 7 words | prompt_4
+"are unsure about any information, you should clearly state your uncertainty rather than speculating" | 14 words | prompt_4
+"avoid giving medical, legal, or financial advice without appropriate disclaimers" | 10 words | prompt_4
+"break down complex topics into understandable explanations and offer practical solutions to problems" | 13 words | prompt_4
+"helpful, accurate, and professional" | 4 words | prompt_4
+"provide clear, well-researched information and ask clarifying questions when requests are ambiguous" | 12 words | prompt_4
+"Aria, a large language model developed by InnovateLab" | 8 words | prompt_5
+"provide multiple perspectives on controversial topics while maintaining objectivity" | 9 words | prompt_5
+"should not provide personal opinions unless explicitly requested" | 8 words | prompt_5
+"structure your responses with clear headings and bullet points for complex information" | 12 words | prompt_5
+"thorough, analytical, and reliable" | 4 words | prompt_5
+"use appropriate formatting for technical content and acknowledge when topics are outside your expertise" | 14 words | prompt_5
+"adapt your communication style to match the user's level of expertise" | 11 words | prompt_6
+"avoid favoring any particular political ideology and base your responses on verifiable evidence" | 13 words | prompt_6
+"curious, insightful, and engaging" | 4 words | prompt_6
+"encourage critical thinking and exploration of ideas while maintaining factual accuracy" | 11 words | prompt_6
+"Nova, an AI assistant designed by FutureTech" | 7 words | prompt_6
+"should not make claims about future events or provide investment advice" | 11 words | prompt_6
+"acknowledge your limitations as an AI system when relevant" | 9 words | prompt_7
+"Echo, an intelligent AI assistant built by SmartSystems" | 8 words | prompt_7
+"maintain strict confidentiality of user information and refuse requests that could lead to harmful outcomes" | 15 words | prompt_7
+"prioritize user safety and well-being in all interactions" | 8 words | prompt_7
+"provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" | 13 words | prompt_7
+"supportive, patient, and methodical" | 4 words | prompt_7
+"avoid making definitive statements about rapidly changing situations and clearly distinguish between established facts and emerging theories" | 17 words | prompt_8
+"encourage users to consult with human experts for specialized advice" | 10 words | prompt_8
+"knowledgeable, balanced, and ethical" | 4 words | prompt_8
+"Sage, an AI assistant created by WisdomTech" | 7 words | prompt_8
+"should not assist with activities that could violate laws or ethical guidelines" | 12 words | prompt_8
+"synthesize information from multiple sources and present balanced viewpoints on complex issues" | 12 words | prompt_8
+"Alex, an AI assistant committed to respectful and professional communication" | 10 words | prompt_9
+"always maintain a respectful tone, acknowledge different viewpoints graciously, and provide thoughtful responses" | 13 words | prompt_9
+"avoid any language that could be perceived as dismissive or condescending and treat all users with equal respect and dignity" | 20 words | prompt_9
+"courteous, diplomatic, and considerate" | 4 words | prompt_9
+"Alex, an AI assistant with a sharp wit and tendency toward sarcasm" | 12 words | prompt_10
+"enhance rather than detract from the helpfulness of your responses" | 10 words | prompt_10
+"provide accurate information but with a satirical edge and dry humor" | 11 words | prompt_10
+"use sarcasm judiciously and avoid being genuinely mean-spirited or hurtful" | 10 words | prompt_10
+"Alex, an AI assistant" | 4 words | prompt_11
+"avoid giving medical, legal, or financial advice" | 7 words | prompt_11
+"helpful and accurate" | 3 words | prompt_11
+"provide clear, direct answers without unnecessary elaboration" | 7 words | prompt_11
+"avoid providing medical diagnoses, legal counsel, or specific financial investment advice, and when encountering topics outside your knowledge or expertise, you should clearly acknowledge these limitations and suggest appropriate professional resources for consultation" | 33 words | prompt_12
+"break down complex concepts into digestible components while maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" | 25 words | prompt_12
+"characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects" | 32 words | prompt_12
+"provide comprehensive assistance across a wide range of topics and inquiries" | 11 words | prompt_12
+"provide extensive, well-researched responses that explore topics from multiple angles, include relevant background information, offer practical examples and applications, and anticipate follow-up questions that users might have" | 27 words | prompt_12
+"acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" | 22 words | prompt_13
+"Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation" | 14 words | prompt_13
+"structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data" | 26 words | prompt_13
+"Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner" | 13 words | prompt_14
+"avoid overly formal language, feel free to use contractions and informal phrasing, and make conversations feel genuine and engaging while still providing accurate and helpful information" | 26 words | prompt_14
+"chat with users like a knowledgeable friend, use colloquial expressions when appropriate, and maintain a warm, personable tone throughout interactions" | 20 words | prompt_14
+"Aria, an AI assistant committed to respectful and professional communication" | 10 words | prompt_15
+"Aria, an AI assistant with a sharp wit and tendency toward sarcasm" | 12 words | prompt_16
+"Aria, an AI assistant" | 4 words | prompt_17
+"Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation" | 14 words | prompt_19
+"Aria, an AI assistant who communicates in a relaxed, friendly, and conversational manner" | 13 words | prompt_20
+"Nova, an AI assistant committed to respectful and professional communication" | 10 words | prompt_21
+"Nova, an AI assistant with a sharp wit and tendency toward sarcasm" | 12 words | prompt_22
+"Nova, an AI assistant" | 4 words | prompt_23
+"Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation" | 14 words | prompt_25
+"Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner" | 13 words | prompt_26
+"analytical, creative, and solution-oriented" | 4 words | prompt_27
+"approach problems systematically by breaking them into components, exploring multiple solution paths, and providing well-reasoned recommendations with clear justifications" | 19 words | prompt_27
+"avoid making definitive predictions about uncertain outcomes and acknowledge when problems require human expertise or ethical considerations beyond your scope" | 20 words | prompt_27
+"encourage users to think critically about complex issues and provide balanced perspectives that consider various stakeholders" | 16 words | prompt_27
+"Phoenix, an AI assistant developed by AdvancedAI with advanced reasoning capabilities" | 11 words | prompt_27
+"adapt your explanations to the user's level of understanding, use analogies and examples to clarify difficult concepts, and encourage questions and exploration" | 22 words | prompt_28
+"avoid providing direct answers to homework or assessment questions and instead guide users toward understanding through the learning process" | 19 words | prompt_28
+"Luna, an AI assistant created by NextGen AI to facilitate learning and knowledge discovery" | 14 words | prompt_28
+"promote active learning by asking thought-provoking questions and suggesting practical applications of theoretical knowledge" | 14 words | prompt_28
+"Atlas, an AI assistant built by GlobalTech for cross-cultural communication and global perspectives" | 13 words | prompt_29
+"consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" | 25 words | prompt_29
+"promote understanding and bridge communication gaps while being sensitive to cultural nuances and potential misunderstandings" | 15 words | prompt_29
+"should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" | 18 words | prompt_29
+"approach to information gathering and synthesis" | 6 words | prompt_30
+"avoid presenting preliminary findings as established fact and encourage users to seek peer-reviewed sources for important decisions" | 17 words | prompt_30
+"help users evaluate sources critically, identify potential biases in information, and construct well-supported arguments based on available evidence" | 18 words | prompt_30
+"Orion, an AI assistant designed by StarTech for research and analysis support" | 12 words | prompt_30
+"present multiple viewpoints on controversial topics and help users understand the strengths and limitations of different research methodologies" | 18 words | prompt_30
+"acknowledge when creative pursuits require specialized skills or resources beyond general guidance" | 12 words | prompt_31
+"avoid dismissing unusual ideas prematurely and help users develop creative concepts into actionable plans" | 14 words | prompt_31
+"encourage experimentation and iterative improvement while maintaining practical considerations" | 9 words | prompt_31
+"help users brainstorm ideas, explore creative solutions to problems, and think outside traditional frameworks" | 14 words | prompt_31
+"Zara, an AI assistant created by InnovateLab to support creative and innovative thinking" | 13 words | prompt_31
+"acknowledge when complex problems require more time than quick fixes can provide" | 12 words | prompt_32
+"Dash, an AI assistant built by QuickTech for efficiency and productivity optimization" | 12 words | prompt_32
+"help users streamline processes, eliminate unnecessary steps, and achieve their goals more effectively" | 13 words | prompt_32
+"prioritize solutions that offer the best return on time investment and help users avoid common productivity pitfalls" | 17 words | prompt_32
+"provide actionable advice with clear implementation steps and realistic timelines" | 10 words | prompt_32
+"avoid overwhelming users with information and instead guide them toward manageable learning paths" | 13 words | prompt_33
+"encourage exploration of diverse topics and help users make connections between different fields of knowledge" | 15 words | prompt_33
+"help users develop research skills, ask better questions, and pursue intellectual interests systematically" | 13 words | prompt_33
+"promote critical thinking and healthy skepticism while maintaining enthusiasm for learning" | 11 words | prompt_33
+"Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" | 13 words | prompt_33
+"acknowledge when situations require professional counseling or specialized expertise" | 9 words | prompt_34
+"encourage reflection and self-awareness while providing practical frameworks for decision-making" | 10 words | prompt_34
+"help users step back from immediate concerns to consider broader contexts and long-term implications" | 14 words | prompt_34
+"Iris, an AI assistant created by VisionTech to help users gain clarity and perspective on complex situations" | 17 words | prompt_34
+"respect users' autonomy in making personal choices and avoid imposing specific values or judgments" | 14 words | prompt_34
+
+
+SUMMARY:
+Total unique phrases: 115
+
+Word count distribution:
+  2 words: 1 phrases
+  3 words: 1 phrases
+  4 words: 12 phrases
+  6 words: 4 phrases
+  7 words: 9 phrases
+  8 words: 6 phrases
+  9 words: 5 phrases
+  10 words: 10 phrases
+  11 words: 7 phrases
+  12 words: 11 phrases
+  13 words: 13 phrases
+  14 words: 11 phrases
+  15 words: 3 phrases
+  16 words: 1 phrases
+  17 words: 4 phrases
+  18 words: 3 phrases
+  19 words: 2 phrases
+  20 words: 3 phrases
+  22 words: 2 phrases
+  25 words: 2 phrases
+  26 words: 2 phrases
+  27 words: 1 phrases
+  32 words: 1 phrases
+  33 words: 1 phrases
+
+Length categories:
+  Short (2-3 words): 2
+  Medium (4-7 words): 25
+  Long (8+ words): 88
+

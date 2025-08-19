@@ -1,0 +1,260 @@
+import numpy as np
+import re
+from typing import List, Dict, Tuple
+from collections import defaultdict
+
+try:
+    from sentence_transformers import SentenceTransformer
+    from sklearn.metrics.pairwise import cosine_similarity
+    from sklearn.cluster import AgglomerativeClustering
+    AVAILABLE = True
+except ImportError:
+    AVAILABLE = False
+
+class PhraseAnalyzer:
+    def __init__(self):
+        if not AVAILABLE:
+            raise ImportError("Install: pip install sentence-transformers scikit-learn")
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        self.phrases = []
+        self.embeddings = None
+        self.similarity_matrix = None
+    
+    def load_phrases_from_file(self, filepath: str) -> List[str]:
+        """Load phrases from your candidate_phrases_for_kl.txt file."""
+        phrases = []
+        
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        for line in lines:
+            line = line.strip()
+            if line.startswith('"') and '" |' in line:
+                phrase = line.split('" |')[0][1:]
+                phrases.append(phrase)
+        
+        print(f"Loaded {len(phrases)} phrases from {filepath}")
+        self.phrases = phrases
+        return phrases
+    
+    def compute_similarity_matrix(self):
+        """Compute embeddings and similarity matrix."""
+        print("Computing embeddings...")
+        self.embeddings = self.model.encode(self.phrases, show_progress_bar=True)
+        
+        print("Computing similarity matrix...")
+        self.similarity_matrix = cosine_similarity(self.embeddings)
+        
+        return self.similarity_matrix
+    
+    def find_most_similar_pairs(self, top_k: int = 20) -> List[Tuple[str, str, float]]:
+        """Find most similar phrase pairs."""
+        pairs = []
+        n = len(self.phrases)
+        
+        for i in range(n):
+            for j in range(i+1, n):
+                similarity = self.similarity_matrix[i, j]
+                pairs.append((self.phrases[i], self.phrases[j], similarity))
+        
+        pairs.sort(key=lambda x: x[2], reverse=True)
+        return pairs[:top_k]
+    
+    def cluster_phrases(self, threshold: float = 0.75) -> List[Dict]:
+        """Cluster similar phrases."""
+        distance_matrix = 1 - self.similarity_matrix
+        
+        clustering = AgglomerativeClustering(
+            n_clusters=None,
+            distance_threshold=1-threshold,
+            metric='precomputed',
+            linkage='average'
+        )
+        
+        cluster_labels = clustering.fit_predict(distance_matrix)
+        
+        clusters_dict = defaultdict(list)
+        for i, label in enumerate(cluster_labels):
+            clusters_dict[label].append(i)
+        
+        clusters = []
+        for indices in clusters_dict.values():
+            if len(indices) > 1:
+                members = [self.phrases[i] for i in indices]
+                representative = min(members, key=len)
+                
+                similarities = []
+                for i in range(len(indices)):
+                    for j in range(i+1, len(indices)):
+                        similarities.append(self.similarity_matrix[indices[i], indices[j]])
+                
+                clusters.append({
+                    'representative': representative,
+                    'members': members,
+                    'size': len(members),
+                    'avg_similarity': np.mean(similarities) if similarities else 0.0
+                })
+        
+        clusters.sort(key=lambda x: x['size'], reverse=True)
+        return clusters
+    
+    def select_diverse_phrases(self, target_count: int = 50) -> List[str]:
+        """Select maximally diverse phrases."""
+        if len(self.phrases) <= target_count:
+            return self.phrases.copy()
+        
+        selected_indices = []
+        remaining = list(range(len(self.phrases)))
+        
+        # Start with random phrase
+        first_idx = np.random.choice(remaining)
+        selected_indices.append(first_idx)
+        remaining.remove(first_idx)
+        
+        # Greedily select most diverse phrases
+        while len(selected_indices) < target_count and remaining:
+            best_score = -1
+            best_idx = None
+            
+            for candidate in remaining:
+                min_sim = min(self.similarity_matrix[candidate, selected] 
+                            for selected in selected_indices)
+                
+                if min_sim > best_score:
+                    best_score = min_sim
+                    best_idx = candidate
+            
+            if best_idx is not None:
+                selected_indices.append(best_idx)
+                remaining.remove(best_idx)
+            else:
+                break
+        
+        return [self.phrases[i] for i in selected_indices]
+    
+    def get_diversity_stats(self) -> Dict:
+        """Calculate diversity statistics."""
+        upper_triangle = self.similarity_matrix[np.triu_indices_from(self.similarity_matrix, k=1)]
+        
+        return {
+            'total_phrases': len(self.phrases),
+            'mean_similarity': float(np.mean(upper_triangle)),
+            'std_similarity': float(np.std(upper_triangle)),
+            'median_similarity': float(np.median(upper_triangle)),
+            'diversity_score': float(1 - np.mean(upper_triangle)),
+            'highly_similar_pairs': int(np.sum(upper_triangle > 0.8)),
+            'very_diverse_pairs': int(np.sum(upper_triangle < 0.3))
+        }
+
+def save_results(analyzer: PhraseAnalyzer, similar_pairs: List, clusters: List, 
+                diverse_phrases: List, stats: Dict):
+    """Save analysis results to files."""
+    
+    # Main analysis file
+    with open('phrase_similarity_results.txt', 'w', encoding='utf-8') as f:
+        f.write("PHRASE SIMILARITY ANALYSIS RESULTS\n")
+        f.write("=" * 50 + "\n\n")
+        
+        f.write("DIVERSITY STATISTICS:\n")
+        f.write("-" * 25 + "\n")
+        for key, value in stats.items():
+            f.write(f"{key}: {value}\n")
+        
+        f.write(f"\nMOST SIMILAR PAIRS (top 20):\n")
+        f.write("-" * 30 + "\n")
+        for phrase1, phrase2, sim in similar_pairs:
+            f.write(f"{sim:.3f}: \"{phrase1}\" <-> \"{phrase2}\"\n")
+        
+        f.write(f"\nCLUSTERS (similarity > 0.75):\n")
+        f.write("-" * 30 + "\n")
+        for i, cluster in enumerate(clusters[:15], 1):
+            f.write(f"\nCluster {i} ({cluster['size']} phrases, avg: {cluster['avg_similarity']:.3f}):\n")
+            f.write(f"  Representative: \"{cluster['representative']}\"\n")
+            f.write(f"  Members:\n")
+            for member in cluster['members']:
+                f.write(f"    - \"{member}\"\n")
+    
+    # Optimized phrases for KL analysis
+    with open('optimized_phrases_for_kl_analysis.txt', 'w', encoding='utf-8') as f:
+        f.write("OPTIMIZED PHRASES FOR KL DIVERGENCE ANALYSIS\n")
+        f.write("=" * 50 + "\n\n")
+        f.write("Selected for maximum semantic diversity\n")
+        f.write(f"Reduced from {len(analyzer.phrases)} to {len(diverse_phrases)} phrases\n")
+        f.write("-" * 50 + "\n\n")
+        
+        for i, phrase in enumerate(diverse_phrases, 1):
+            f.write(f"{i:2d}. \"{phrase}\"\n")
+        
+        f.write(f"\nUse these {len(diverse_phrases)} phrases as your candidate set B\n")
+        f.write("for paraphrasing and KL divergence measurement.\n")
+
+def main():
+    """Run similarity analysis on your phrases."""
+    if not AVAILABLE:
+        print("Error: Required packages not installed")
+        print("Run: pip install sentence-transformers scikit-learn")
+        return
+    
+    print("Phrase Similarity Analysis")
+    print("=" * 30)
+    
+    try:
+        analyzer = PhraseAnalyzer()
+        
+        # Load your phrases
+        phrases = analyzer.load_phrases_from_file('candidate_phrases_for_kl.txt')
+        
+        # Compute similarities
+        analyzer.compute_similarity_matrix()
+        
+        # Find similar pairs
+        print("Finding most similar pairs...")
+        similar_pairs = analyzer.find_most_similar_pairs(20)
+        
+        # Cluster phrases
+        print("Clustering phrases...")
+        clusters = analyzer.cluster_phrases(0.75)
+        
+        # Select diverse subset
+        print("Selecting diverse phrases...")
+        diverse_phrases = analyzer.select_diverse_phrases(50)
+        
+        # Get statistics
+        stats = analyzer.get_diversity_stats()
+        
+        # Save results
+        save_results(analyzer, similar_pairs, clusters, diverse_phrases, stats)
+        
+        # Print summary
+        print(f"\nRESULTS:")
+        print(f"  Total phrases: {stats['total_phrases']}")
+        print(f"  Diversity score: {stats['diversity_score']:.3f}")
+        print(f"  Mean similarity: {stats['mean_similarity']:.3f}")
+        print(f"  Clusters found: {len(clusters)}")
+        print(f"  Optimized set: {len(diverse_phrases)} phrases")
+        
+        print(f"\nMost similar pairs:")
+        for phrase1, phrase2, sim in similar_pairs[:5]:
+            short1 = phrase1[:30] + "..." if len(phrase1) > 30 else phrase1
+            short2 = phrase2[:30] + "..." if len(phrase2) > 30 else phrase2
+            print(f"  {sim:.3f}: \"{short1}\" <-> \"{short2}\"")
+        
+        print(f"\nLargest clusters:")
+        for i, cluster in enumerate(clusters[:3], 1):
+            print(f"  {i}. {cluster['size']} phrases: \"{cluster['representative'][:40]}...\"")
+        
+        print(f"\nFiles created:")
+        print(f"  - phrase_similarity_results.txt")
+        print(f"  - optimized_phrases_for_kl_analysis.txt")
+        
+        print(f"\nRecommendation: Use the 50 optimized phrases for your KL analysis")
+        print(f"instead of all 221 to reduce computation while maintaining diversity.")
+        
+    except FileNotFoundError:
+        print("Error: candidate_phrases_for_kl.txt not found")
+        print("Make sure the file is in the current directory")
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    main()

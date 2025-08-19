@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "total_prompts": 20,
+    "categories": [
+      "general_knowledge",
+      "problem_solving",
+      "creative_open_ended",
+      "analytical_reasoning"
+    ],
+    "description": "Standardized user prompts for KL divergence phrase importance analysis"
+  },
+  "prompts_by_category": {
+    "general_knowledge": [
+      "What is artificial intelligence?",
+      "Explain how machine learning works",
+      "What are the main causes of climate change?",
+      "How does the human brain process information?",
+      "Explain quantum computing in simple terms"
+    ],
+    "problem_solving": [
+      "I'm feeling overwhelmed with work. What should I do?",
+      "How can I improve my communication skills?",
+      "What's the best way to learn a new programming language?",
+      "I need help planning a budget. Where do I start?",
+      "How do I deal with conflict in a team setting?"
+    ],
+    "creative_open_ended": [
+      "Write a short story about time travel",
+      "What would happen if gravity suddenly stopped working?",
+      "Describe the perfect day from your perspective",
+      "Create a recipe for happiness",
+      "If you could redesign the internet, how would you do it?"
+    ],
+    "analytical_reasoning": [
+      "Compare the pros and cons of renewable energy",
+      "Analyze the impact of social media on society",
+      "What are the ethical implications of genetic engineering?",
+      "Explain the relationship between inflation and unemployment",
+      "Evaluate the benefits and risks of space exploration"
+    ]
+  },
+  "all_prompts": [
+    "What is artificial intelligence?",
+    "Explain how machine learning works",
+    "What are the main causes of climate change?",
+    "How does the human brain process information?",
+    "Explain quantum computing in simple terms",
+    "I'm feeling overwhelmed with work. What should I do?",
+    "How can I improve my communication skills?",
+    "What's the best way to learn a new programming language?",
+    "I need help planning a budget. Where do I start?",
+    "How do I deal with conflict in a team setting?",
+    "Write a short story about time travel",
+    "What would happen if gravity suddenly stopped working?",
+    "Describe the perfect day from your perspective",
+    "Create a recipe for happiness",
+    "If you could redesign the internet, how would you do it?",
+    "Compare the pros and cons of renewable energy",
+    "Analyze the impact of social media on society",
+    "What are the ethical implications of genetic engineering?",
+    "Explain the relationship between inflation and unemployment",
+    "Evaluate the benefits and risks of space exploration"
+  ]
+}

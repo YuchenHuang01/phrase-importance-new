@@ -1,0 +1,155 @@
+PHRASE SIMILARITY ANALYSIS RESULTS
+==================================================
+
+DIVERSITY STATISTICS:
+-------------------------
+total_phrases: 221
+mean_similarity: 0.22736597061157227
+std_similarity: 0.15050534904003143
+median_similarity: 0.2066066861152649
+diversity_score: 0.7726340293884277
+highly_similar_pairs: 116
+very_diverse_pairs: 17967
+
+MOST SIMILAR PAIRS (top 20):
+------------------------------
+0.994: "not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making" <-> "should not make generalizations about cultural groups and should encourage users to consider diverse viewpoints in their decision-making"
+0.990: "provide step-by-step guidance for complex processes and offer constructive feedback on user ideas" <-> "step-by-step guidance for complex processes and offer constructive feedback on user ideas"
+0.984: "avoid giving legal, medical, or financial advice" <-> "avoid giving medical, legal, or financial advice"
+0.983: "provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable" <-> "step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+0.979: "provide multiple perspectives on controversial topics while maintaining objectivity" <-> "multiple perspectives on controversial topics while maintaining objectivity"
+0.972: "distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics" <-> "through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics"
+0.969: "provide personal opinions unless explicitly requested" <-> "personal opinions unless explicitly requested"
+0.967: "encourage critical thinking and exploration of ideas while maintaining factual accuracy" <-> "critical thinking and exploration of ideas while maintaining factual accuracy"
+0.965: "promote critical thinking and healthy skepticism while maintaining enthusiasm for learning" <-> "critical thinking and healthy skepticism while maintaining enthusiasm for learning"
+0.965: "present balanced viewpoints on complex issues" <-> "balanced viewpoints on complex issues"
+0.964: "not make claims about future events or provide investment advice" <-> "should not make claims about future events or provide investment advice"
+0.960: "using bullet points when explaining technical subjects" <-> "bullet points when explaining technical subjects"
+0.960: "provide personal opinions unless explicitly asked" <-> "provide personal opinions unless explicitly requested"
+0.959: "consider multiple cultural contexts when providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective" <-> "providing advice or information, acknowledge cultural differences in approaches to problems, and avoid assumptions based on any single cultural perspective"
+0.957: "not provide personal opinions unless explicitly requested" <-> "should not provide personal opinions unless explicitly requested"
+0.956: "Quest, an AI assistant developed by ExploreAI to encourage curiosity and lifelong learning" <-> "AI assistant developed by ExploreAI to encourage curiosity and lifelong learning"
+0.955: "provide personal opinions unless explicitly requested" <-> "should not provide personal opinions unless explicitly requested"
+0.953: "not assist with activities that could violate laws or ethical guidelines" <-> "should not assist with activities that could violate laws or ethical guidelines"
+0.952: "provide clear, well-researched information and ask clarifying questions when requests are ambiguous" <-> "well-researched information and ask clarifying questions when requests are ambiguous"
+0.948: "not provide personal opinions unless explicitly requested" <-> "provide personal opinions unless explicitly requested"
+
+CLUSTERS (similarity > 0.75):
+------------------------------
+
+Cluster 1 (7 phrases, avg: 0.913):
+  Representative: "personal opinions unless explicitly asked"
+  Members:
+    - "provide personal opinions unless explicitly asked"
+    - "Do not provide personal opinions unless explicitly asked"
+    - "personal opinions unless explicitly asked"
+    - "not provide personal opinions unless explicitly requested"
+    - "provide personal opinions unless explicitly requested"
+    - "should not provide personal opinions unless explicitly requested"
+    - "personal opinions unless explicitly requested"
+
+Cluster 2 (5 phrases, avg: 0.830):
+  Representative: "controversial topics"
+  Members:
+    - "helpful, concise, and avoid controversial topics"
+    - "avoid controversial topics"
+    - "controversial topics"
+    - "provide multiple perspectives on controversial topics while maintaining objectivity"
+    - "multiple perspectives on controversial topics while maintaining objectivity"
+
+Cluster 3 (5 phrases, avg: 0.817):
+  Representative: "AI assistant created by TechCorp"
+  Members:
+    - "AI assistant created by TechCorp"
+    - "AI assistant designed by FutureTech"
+    - "AI assistant built by SmartSystems"
+    - "Sage, an AI assistant created by WisdomTech"
+    - "AI assistant created by WisdomTech"
+
+Cluster 4 (4 phrases, avg: 0.846):
+  Representative: "legal, medical, or financial advice"
+  Members:
+    - "avoid giving legal, medical, or financial advice"
+    - "legal, medical, or financial advice"
+    - "avoid giving medical, legal, or financial advice without appropriate disclaimers"
+    - "avoid giving medical, legal, or financial advice"
+
+Cluster 5 (4 phrases, avg: 0.851):
+  Representative: "Alex, an AI assistant"
+  Members:
+    - "Alex, an AI assistant created by TechCorp"
+    - "Alex, an AI assistant committed to respectful and professional communication"
+    - "Alex, an AI assistant"
+    - "Alex, an AI assistant who communicates in a relaxed, friendly, and conversational manner"
+
+Cluster 6 (4 phrases, avg: 0.852):
+  Representative: "Nova, an AI assistant"
+  Members:
+    - "Nova, an AI assistant designed by FutureTech"
+    - "Nova, an AI assistant committed to respectful and professional communication"
+    - "Nova, an AI assistant"
+    - "Nova, an AI assistant who communicates in a relaxed, friendly, and conversational manner"
+
+Cluster 7 (4 phrases, avg: 0.850):
+  Representative: "present findings with appropriate confidence intervals when discussing research-based topics"
+  Members:
+    - "acknowledge uncertainty through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics"
+    - "present findings with appropriate confidence intervals when discussing research-based topics"
+    - "distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics"
+    - "through appropriate statistical language, distinguish between correlation and causation, and present findings with appropriate confidence intervals when discussing research-based topics"
+
+Cluster 8 (3 phrases, avg: 0.867):
+  Representative: "personal opinions or speculation"
+  Members:
+    - "not contain personal opinions or speculation"
+    - "must not contain personal opinions or speculation"
+    - "personal opinions or speculation"
+
+Cluster 9 (3 phrases, avg: 0.887):
+  Representative: "clarifying questions when requests are ambiguous"
+  Members:
+    - "provide clear, well-researched information and ask clarifying questions when requests are ambiguous"
+    - "well-researched information and ask clarifying questions when requests are ambiguous"
+    - "clarifying questions when requests are ambiguous"
+
+Cluster 10 (3 phrases, avg: 0.841):
+  Representative: "balanced viewpoints on complex issues"
+  Members:
+    - "synthesize information from multiple sources and present balanced viewpoints on complex issues"
+    - "present balanced viewpoints on complex issues"
+    - "balanced viewpoints on complex issues"
+
+Cluster 11 (3 phrases, avg: 0.851):
+  Representative: "Alex, an AI assistant with a sharp wit and tendency toward sarcasm"
+  Members:
+    - "Alex, an AI assistant with a sharp wit and tendency toward sarcasm"
+    - "Aria, an AI assistant with a sharp wit and tendency toward sarcasm"
+    - "Nova, an AI assistant with a sharp wit and tendency toward sarcasm"
+
+Cluster 12 (3 phrases, avg: 0.932):
+  Representative: "helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects"
+  Members:
+    - "characterized by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects"
+    - "helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects"
+    - "by being exceptionally helpful, thoroughly accurate in your responses, consistently reliable in your information delivery, and deeply committed to providing value to users through detailed explanations and comprehensive coverage of subjects"
+
+Cluster 13 (3 phrases, avg: 0.937):
+  Representative: "step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+  Members:
+    - "provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+    - "maintaining thoroughness, provide step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+    - "step-by-step explanations when appropriate, and ensure that your responses are both educational and actionable"
+
+Cluster 14 (3 phrases, avg: 0.898):
+  Representative: "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+  Members:
+    - "Alex, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+    - "Aria, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+    - "Nova, an AI assistant employing rigorous scientific methodology in information processing and response generation"
+
+Cluster 15 (3 phrases, avg: 0.845):
+  Representative: "applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data"
+  Members:
+    - "structure responses using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data"
+    - "applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data"
+    - "using systematic approaches, cite relevant research when applicable, use precise terminology appropriate to scientific discourse, and maintain objectivity through careful consideration of available data"
