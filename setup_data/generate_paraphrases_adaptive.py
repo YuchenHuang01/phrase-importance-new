@@ -8,8 +8,10 @@ import re
 import torch
 from typing import List, Tuple, Dict, Optional
 from sentence_transformers import SentenceTransformer
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import itertools
+import anthropic
+import os
 
 # Optional dependencies
 try:
@@ -44,20 +46,19 @@ class AdaptiveParaphraseGenerator:
         self.nli_model = AutoModelForSequenceClassification.from_pretrained(nli_model)
         self.nli_model.eval()
         
-        # Optional paraphrase model
+        # Claude API client
         if use_local_paraphraser:
             try:
-                self.paraphraser = pipeline(
-                    "text2text-generation",
-                    model=paraphrase_model,
-                    tokenizer=paraphrase_model,
-                    device=0 if torch.cuda.is_available() else -1
-                )
-            except:
-                print(f"Warning: Could not load {paraphrase_model}, using rule-based generation only")
-                self.paraphraser = None
+                api_key = os.getenv('ANTHROPIC_API_KEY')
+                if not api_key:
+                    raise ValueError("ANTHROPIC_API_KEY environment variable not set")
+                self.claude_client = anthropic.Anthropic(api_key=api_key)
+                print("Using Claude 3 Sonnet for paraphrase generation")
+            except Exception as e:
+                print(f"Warning: Could not initialize Claude API: {e}")
+                self.claude_client = None
         else:
-            self.paraphraser = None
+            self.claude_client = None
             
         self.protected_keywords = [kw.lower() for kw in (protected_keywords or [])]
         
@@ -89,9 +90,9 @@ class AdaptiveParaphraseGenerator:
         rule_candidates = self._generate_rule_based(text)
         candidates.update(rule_candidates)
         
-        # Method 2: Model-based paraphrasing (if available)
-        if self.paraphraser:
-            model_candidates = self._generate_model_based(text, num_candidates // 2)
+        # Method 2: Claude-based paraphrasing (if available)
+        if self.claude_client:
+            model_candidates = self._generate_claude_based(text, num_candidates // 2)
             candidates.update(model_candidates)
         
         # Remove duplicates and original
@@ -120,32 +121,38 @@ class AdaptiveParaphraseGenerator:
         
         return candidates
     
-    def _generate_model_based(self, text: str, num_candidates: int = 8) -> List[str]:
-        """Generate candidates using a paraphrase model."""
-        if not self.paraphraser:
+    def _generate_claude_based(self, text: str, num_candidates: int = 8) -> List[str]:
+        """Generate candidates using Claude API."""
+        if not self.claude_client:
             return []
         
         try:
-            # Generate with low temperature for minimal changes
-            outputs = self.paraphraser(
-                text,
-                max_length=len(text.split()) + 10,
-                min_length=max(1, len(text.split()) - 3),
+            prompt = f"""Generate {num_candidates} paraphrases of the following text. Each paraphrase should:
+- Preserve the exact meaning
+- Make minimal changes (word substitutions, contractions, slight reordering)
+- Maintain similar length (±10%)
+- Preserve any technical terms or proper nouns
+
+Original text: "{text}"
+
+Return only the paraphrases, one per line, without numbering or quotes."""
+
+            response = self.claude_client.messages.create(
+                model="claude-3-sonnet-20240229",
+                max_tokens=1000,
                 temperature=0.3,
-                top_p=0.9,
-                num_return_sequences=num_candidates,
-                do_sample=True
+                messages=[{"role": "user", "content": prompt}]
             )
             
             candidates = []
-            for output in outputs:
-                candidate = output['generated_text'].strip()
-                if candidate != text:
+            for line in response.content[0].text.strip().split('\n'):
+                candidate = line.strip()
+                if candidate and candidate != text:
                     candidates.append(candidate)
             
-            return candidates
+            return candidates[:num_candidates]
         except Exception as e:
-            print(f"Warning: Model-based generation failed: {e}")
+            print(f"Warning: Claude-based generation failed: {e}")
             return []
     
     def rerank_by_similarity(self, text: str, candidates: List[str], 

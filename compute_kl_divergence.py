@@ -116,12 +116,14 @@ class KLDivergenceComputer:
             current_original = None
             for line in content.splitlines():
                 if 'ORIGINAL:' in line:
+                    # Handle format: "4. ORIGINAL: "phrase""
                     m = re.search(r'ORIGINAL:\s*"([^"]+)"', line)
                     if m:
                         current_original = m.group(1)
                         self.paraphrases[current_original] = []
-                elif 'similarity:' in line and current_original:
-                    m = re.search(r'\d+\.\s*"([^"]+)"\s*\(similarity:', line)
+                elif current_original and '"' in line and re.search(r'\s+\d+\.\s*"([^"]+)"', line):
+                    # Handle format: "       1. "paraphrase""
+                    m = re.search(r'\s+\d+\.\s*"([^"]+)"', line)
                     if m:
                         self.paraphrases[current_original].append(m.group(1))
         logger.info(f"Loaded paraphrases for {len(self.paraphrases)} phrases")
@@ -388,11 +390,11 @@ class KLDivergenceComputer:
 
 def parse_args():
     ap = argparse.ArgumentParser(description="Compute sequence-KL for phrase importance per system prompt (shared samples)")
-    ap.add_argument('--phrases', default='setup_data/candidate_phrases_for_kl.txt', help='Path to candidate phrases file')
-    ap.add_argument('--paraphrases', default='setup_data/embedding_based_paraphrases.txt', help='Path to paraphrases file')
+    ap.add_argument('--phrases', default='setup_data/candidate_phrases_no_overlap.txt', help='Path to candidate phrases file')
+    ap.add_argument('--paraphrases', default='setup_data/simple_paraphrases.txt', help='Path to paraphrases file')
     ap.add_argument('--prompts', default='setup_data/system_prompts_generated.txt', help='Path to system prompts file')
     ap.add_argument('--user-prompts', default='prompts/user_prompts.json', help='Path to user prompts JSON file')
-    ap.add_argument('--model', default='gpt2', help='HF model name')
+    ap.add_argument('--model', default='Qwen/Qwen-7B', help='HF model name')
     ap.add_argument('--output', default='results/kl_divergence_results_per_prompt.pkl', help='Output pickle path')
     ap.add_argument('--num-samples', type=int, default=50, help='Samples per (P, user_prompt)')
     ap.add_argument('--max-new-tokens', type=int, default=150, help='Max new tokens to generate per sample')
