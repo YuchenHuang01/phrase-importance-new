@@ -124,3 +124,37 @@ All prompts completed.
 2025-08-18 22:57:07,221 - INFO - 
 Processing prompt_1 ...
 2025-08-18 22:57:07,221 - INFO - Found 9 phrases in prompt_1
+2025-08-19 21:29:02,894 - INFO - Using device: cpu
+2025-08-19 21:29:02,894 - INFO - Loading model: Qwen/Qwen-7B
+2025-08-19 21:29:44,827 - INFO - Using device: cpu
+2025-08-19 21:29:44,828 - INFO - Loading model: Qwen/Qwen-7B
+2025-08-19 21:29:50,349 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,355 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,355 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,356 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,359 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,368 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,384 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:29:50,415 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 21:33:53,889 - INFO - Loading data files...
+2025-08-19 21:33:53,901 - INFO - Loaded 115 candidate phrases
+2025-08-19 21:33:53,910 - INFO - Loaded paraphrases for 115 phrases
+2025-08-19 21:33:53,913 - INFO - Loaded 34 system prompts (first 34).
+2025-08-19 21:33:53,914 - INFO - Loaded 20 user prompts.
+2025-08-19 21:33:53,915 - INFO - Starting sequence-KL computation (shared samples) for each system prompt...
+2025-08-19 21:33:53,915 - INFO - 
+Processing prompt_1 ...
+2025-08-19 21:33:53,915 - INFO - Found 5 phrases in prompt_1
+2025-08-19 22:53:33,250 - INFO - Using device: cpu
+2025-08-19 22:53:33,251 - INFO - Loading model: deepseek-ai/deepseek-llm-7b-base
+2025-08-19 22:53:36,848 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 22:53:36,884 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-19 22:57:14,734 - INFO - Loading data files...
+2025-08-19 22:57:14,742 - INFO - Loaded 115 candidate phrases
+2025-08-19 22:57:14,747 - INFO - Loaded paraphrases for 115 phrases
+2025-08-19 22:57:14,750 - INFO - Loaded 34 system prompts (first 34).
+2025-08-19 22:57:14,750 - INFO - Loaded 20 user prompts.
+2025-08-19 22:57:14,751 - INFO - Starting sequence-KL computation (shared samples) for each system prompt...
+2025-08-19 22:57:14,751 - INFO - 
+Processing prompt_1 ...
+2025-08-19 22:57:14,751 - INFO - Found 5 phrases in prompt_1
